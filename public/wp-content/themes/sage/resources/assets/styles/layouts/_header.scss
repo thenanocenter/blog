@@ -1,0 +1,91 @@
+.header{
+  height: 90px;
+  position: relative;
+  padding:0px;
+  margin:0px;
+  a{
+    border:none;
+  }
+}
+
+.header-inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+// logo
+
+.brand-container{
+  padding-top:5px;
+}
+
+@media (min-width: 851px) {
+  .brand-container{
+    padding-top:29px;
+  }
+}
+
+.brand{
+  display: block;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  background-image: url("../images/icon-blue.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+  text-indent: -9999px;
+}
+
+// Top Nav
+
+
+.top-navigation{
+  display: none;
+  padding-top:25px;
+}
+
+@media (min-width: 851px) {
+  .top-navigation{
+    display: flex;
+  }
+}
+
+.top-navigation a{
+  display: block;
+  color: #8795B5;
+  font-family: "Mukta", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  line-height:40px;
+  margin-left:30px;
+}
+
+.top-navigation a.active{
+  font-weight: 600;
+  color: #0087FF;
+}
+
+.top-navigation a:hover{
+  color:#003143;
+}
+
+.top-navigation a.button{
+  border: 1px solid #0087FF;
+  border-radius: 2px;
+  width: 160px;
+  height: 40px;
+  color: #0087FF;
+  font-family: "Mukta", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: center;
+}
+
+.top-navigation a.button:hover{
+  background-color:#0087FF;
+  color:#FFF;
+}

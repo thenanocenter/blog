@@ -1,0 +1,47 @@
+*.log
+wp-config.php
+/public/.htaccess
+
+#Ignore all files and directories
+/public/*
+
+#Un-Ignore git ignore file
+!.gitignore
+!README.md
+
+#Un-Ignore any custom files within /assets
+!/public/assets/
+!/public/assets/*
+!/public/assets/*/*
+!/public/assets/*/*/*
+!/public/assets/*/*/*/*
+
+!/public/wp-content
+/public/wp-content/*
+
+#Un-Ignore Theme and any sub-folders within /sage
+!/public/wp-content/themes/
+/public/wp-content/themes/*
+!/public/wp-content/themes/sage
+!/public/wp-content/themes/sage/*
+!/public/wp-content/themes/sage/*/*
+!/public/wp-content/themes/sage/*/*/*
+!/public/wp-content/themes/sage/*/*/*/*
+!/public/wp-content/themes/sage/*/*/*/*/*
+!/public/wp-content/themes/sage/*/*/*/*/*/*
+
+#Un-Ignore Plugin and any sub-folders within /sage
+!public/wp-content/plugins/
+public/wp-content/plugins/*
+!public/wp-content/plugins/sage-*
+!public/wp-content/plugins/sage-*/*
+!public/wp-content/plugins/sage-*/*/*
+!public/wp-content/plugins/sage-*/*/*/*
+!public/wp-content/plugins/sage-*/*/*/*/*
+!public/wp-content/plugins/sage-*/*/*/*/*/*
+!public/wp-content/plugins/sage-*/*/*/*/*/*/*
+
+#
+dploy.yaml
+prepros.cfg
+/.idea

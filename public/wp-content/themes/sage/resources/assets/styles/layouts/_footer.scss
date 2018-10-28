@@ -1,0 +1,130 @@
+.main-footer{
+  background-color:#F6FBFF;
+  border: 1px solid #CCE8FF !important;
+  box-shadow:none !important;
+  color: #003143;
+  padding:72px 0px;
+}
+
+.main-footer a {
+  color: #003143;
+  border:none;
+  &:hover{
+    text-decoration: none;
+    border:none;
+  }
+}
+
+.footer-rows{
+  display: block;
+}
+
+@media (min-width: 1000px) {
+  .footer-rows{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.section-project-start{
+  width: 309px;
+  align-self: center;
+  margin:0px auto 50px auto;
+}
+
+@media (min-width: 1000px) {
+  .section-project-start{
+    margin:0px;
+  }
+}
+
+.section-project-start h1{
+  color: #003143;
+  font-family: "Mukta", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: left;
+}
+
+.section-project-start .button{
+  color: #FFFFFF !important;
+  font-family: "Mukta", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 43px;
+  text-align: center;
+  display: block;
+  background-color: #0087FF;
+  border-radius: 2px;
+  box-shadow: 0 5px 10px 0 rgba(0, 135, 255, 0.25);
+  height: 43px;
+}
+
+.section-project-start .button:hover{
+  background-color:#0079e4;
+}
+
+.section-menu{
+  align-self: center;
+  width: 300px;
+  margin:0px auto 50px auto;
+}
+
+@media (min-width: 1000px) {
+  .section-menu{
+    width: auto;
+    margin:0px;
+  }
+}
+
+.section-menu-group{
+  display: flex;
+  margin-bottom:25px;
+}
+
+.section-menu-group:last-child{
+  margin-bottom:0px;
+}
+
+.section-menu a{
+  display: block;
+  width: 200px;
+}
+
+.section-menu a .link-title{
+  display: block;
+  color: #0087FF;
+  font-family: "Mukta", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  margin-bottom:5px;
+}
+
+.section-menu a .link-description{
+  display: block;
+  color: #003143;
+  font-family: "Mukta", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: left;
+}
+
+.section-copyright{
+  align-self: center;
+  color: #003143;
+  font-family: "Mukta", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+  .section-copyright{
+    text-align:left;
+  }
+}
