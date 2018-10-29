@@ -41,6 +41,15 @@ public/wp-content/plugins/*
 !public/wp-content/plugins/sage-*/*/*/*/*/*
 !public/wp-content/plugins/sage-*/*/*/*/*/*/*
 
+#Un-Ignore additional mu plugins
+!public/wp-content/mu-plugins/
+public/wp-content/mu-plugins/*
+!public/wp-content/mu-plugins/load.php
+!public/wp-content/mu-plugins/reading-time-wp
+!public/wp-content/mu-plugins/reading-time-wp/*
+!public/wp-content/mu-plugins/reading-time-wp/*/*
+!public/wp-content/mu-plugins/reading-time-wp/*/*/*
+
 #
 dploy.yaml
 prepros.cfg
